@@ -12,8 +12,16 @@
 
 
 ## Results
- Qualitative results comparison on the Kvasir-SEG dataset.From the left: image (1), (2) Ground truth, (3) U-Net, (4)
-ResUNet, (5) ResUNet-mod, and (6) ResUNet++. <br/>
+<p align="center">
+<img src="Img/Table1.png">
+</p>
+
+<p align="center">
+<img src="Img/Table2.png">
+</p>
+
+ **Qualitative results comparison on the Kvasir-SEG dataset.From the left: image (1), (2) Ground truth, (3) U-Net, (4)
+ResUNet, (5) ResUNet-mod, and (6) ResUNet++.** <br/>
 <p align="center">
 <img src="Img/results.png">
 </p>
