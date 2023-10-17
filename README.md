@@ -1,1 +1,3 @@
-# ResUNet++ for Medical image segmentation 
+# ResUNet++: An Advanced Architecture for Medical Image Segmentation
+
+
