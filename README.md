@@ -1,11 +1,37 @@
 # ResUNet++: An Advanced Architecture for Medical Image Segmentation
 
+ResUNet++ is an advanced and more accurate version of the standard U-Net and ResNet architectures, tailored specifically for medical image segmentation tasks. It was proposed to address certain limitations of U-Net and further enhance the accuracy and efficiency of medical image segmentation.
 
 ## Architecture
 <p align="center">
 <img src="Img/Resunet++.png">
 </p>
 
+
+## Key Features:
+
+**Modified Stem Block:** Unlike U-Net, ResUNet++ starts with a modified stem block that reduces the spatial dimensions of the input image.
+
+**Residual Blocks:** Residual connections are employed in the encoder path. These connections bypass one or more layers and help in addressing the vanishing gradient problem, leading to deeper networks.
+**Squeeze and excitation network**:  
+
+**Attention Gates:** The architecture introduces attention gates to the skip connections, allowing the model to focus on specific features more prominently.
+
+**Redesigned Decoder Path:** The decoder path of ResUNet++ employs up-convolution followed by a series of convolutions and is equipped with long-range skip connections to gather multi-scale contextual information.
+
+**ASPP (Atrous Spatial Pyramid Pooling):** To capture multi-scale contextual information, ASPP is used in the last layer before the final output.
+
+## Architecture Advantages:
+
+- Improved accuracy for medical image segmentation.
+- Efficient learning of hierarchical features.
+- Ability to capture long-range spatial dependencies.
+
+## Uses of ResUNet++:
+- Medical Image Segmentation 
+- General Image Segmentation
+- Anomaly Detection in Medical Images 
+- Comparative Studies
 
 ## Dataset Link
 [Kvasir-SEG](https://datasets.simula.no/kvasir-seg/)
