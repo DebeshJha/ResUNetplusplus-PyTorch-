@@ -13,7 +13,8 @@ ResUNet++ is an advanced and more accurate version of the standard U-Net and Res
 **Modified Stem Block:** Unlike U-Net, ResUNet++ starts with a modified stem block that reduces the spatial dimensions of the input image.
 
 **Residual Blocks:** Residual connections are employed in the encoder path. These connections bypass one or more layers and help in addressing the vanishing gradient problem, leading to deeper networks.
-**Squeeze and excitation network**:  
+
+**Squeeze and excitation network**:  The Squeeze and exictation blocks provide dynamic channel-wise recalibration, enhancing the model's ability to focus on significant features.
 
 **Attention Gates:** The architecture introduces attention gates to the skip connections, allowing the model to focus on specific features more prominently.
 
